@@ -1,4 +1,4 @@
 # Stripe-3D-Secure-Payment
 Implement the stripe 3d check on payment
 
-#simply add you stripe key on file and test
+# Simple and easy to implement 3d secure using stripe js version 3
