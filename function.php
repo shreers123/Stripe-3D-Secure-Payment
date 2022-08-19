@@ -1,6 +1,6 @@
 <?php
 include 'vendor/autoload.php';
-\Stripe\Stripe::setApiKey('sk_test_McI9jQxj4UfZ9rDxee4ydkEJ00CRcKKtFH');
+\Stripe\Stripe::setApiKey('STRIPE_KEY');
 
 $body = json_decode(file_get_contents('php://input'), true);
 if(isset($body['charge']) && $body['charge']){
